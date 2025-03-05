@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-600 p-4 text-white shadow-md">
+    <nav className="bg-red-600 p-4 text-white shadow-md">
       <ul className="flex space-x-4">
         <li>
           <Link to="/" className="hover:underline">

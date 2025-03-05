@@ -21,8 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "tw": "npx @tailwindcss/cli -i ./src/index.css -o ./src/output.css --watch",
-    "start": "react-scripts start",
+    "tailwind": "npx @tailwindcss/cli -i ./src/index.css -o ./src/output.css --watch",
+    "start": "concurrently \"react-scripts start\" \"npm run tailwind\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^9.1.2",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11"
   }
