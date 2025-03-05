@@ -1,6 +1,6 @@
 # Getting Started with React and Tailwind(v4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
 Tailwind v4 was intalled and integrated as well[Tailwind CSS v4](https://tailwindcss.com/blog/tailwindcss-v4)
 
 ## Available Scripts
